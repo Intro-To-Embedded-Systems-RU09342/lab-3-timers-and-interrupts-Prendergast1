@@ -33,7 +33,7 @@ Using the built in EnergyTrace(R) software in CCS and the corresponding supporti
 
 ## Button Interrupt
 
-For this assignment, all implemented code would be written in C with the ultimate goal consisting of allowing an LED to blink on and off initially and then stopped from the press of a button. If the button were to be pressed by the user again, the LED would continue to blink on and off at the set rate it was blinking at intially when the program is ran. In order to achieve this specific task, an interrupt has to be implemented. The procedure for this assignment is nearly the same as "Button Blink", apart from the interrupt implementation. With the introduction of the interrupt, its role was to alter the value of the volatile variable between 1 and 0 to enable and disable the LED blinking respectively.
+For this assignment, all implemented code would be written in C with the ultimate goal consisting of allowing an LED to blink on and off initially and then stopped from the press of a button. If the button were to be pressed by the user again, the LED would continue to blink on and off at the set rate it was blinking at intially when the program is ran. In order to achieve this specific task, an interrupt has to be implemented. The procedure for this assignment is nearly the same as "Button Blink", apart from the interrupt implementation. With the introduction of the interrupt, its role was to alter the value of the volatile variable between 1 and 0 to enable and disable the LED blinking respectively. A pragma vector was incorporated to have a specific action occur when an interrupt occurs.
 
 ## Processors Utilized
 * MSP430FR6989
